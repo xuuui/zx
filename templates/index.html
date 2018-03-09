@@ -1,0 +1,692 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>艺安居天然硅藻泥</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="{% static 'main/img/logo.png' %}" rel="icon">
+  <link type="text/css" rel="Stylesheet" href="{% static 'main/css//preload.css' %}" />
+
+  <link href="https://at.alicdn.com/t/font_568755_nswq01qz21tkpgb9.css" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="{% static 'main/lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{% static 'main/lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'main/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'main/lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link href="{% static 'main/css/style.css' %}" rel="stylesheet">
+  <link type="text/css" rel="Stylesheet" href="{% static 'main/css/imageflow.css' %}" />
+</head>
+
+<body >
+  
+
+  <!--==========================
+    Header
+  ============================-->
+  
+  <div id="loader-wrapper" >
+      <div id="loader" ></div>
+
+      <div class="loader-section section-left"></div>
+       <div class="loader-section section-right"></div>
+
+  </div>
+  <script>
+    window.onload=function(){
+    
+    $('body').addClass('loaded');
+    
+  }
+  </script>
+  
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="#intro"><img src="{% static 'main/img/logo1.png' %}" alt="" title="" /></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="index">首页</a></li>
+          <li class="menu-has-children"><a href="about">关于我们</a>
+            <ul>
+              <li><a href="about">艺安居概况</a></li>
+              <li><a href="about1">企业文化</a></li>
+              <li><a href="about2">领导致辞</a></li>
+              <li><a href="about3">荣誉资质</a></li>
+              <li><a href="about4">核心优势</a></li>
+            </ul>
+          </li>
+          <li class="menu-has-children"><a href="news">新闻中心</a>
+          	<ul>
+              <li><a href="news1">企业动态</a></li>
+              <li><a href="news2">行业新闻</a></li>
+              <li><a href="news3">品牌动态</a></li>
+            </ul>
+          </li>
+          <li class="menu-has-children"><a href="anliall">案例欣赏</a>
+            <ul>
+              <li><a href="oushi">欧式风格</a></li>
+              <li><a href="katong">卡通风格</a></li>
+              <li><a href="zhongshi">中式风格</a></li>
+              <li><a href="xiandai">现代风格</a></li>
+              <li><a href="jianyue">简约风格</a></li>
+            </ul>
+          </li>
+          <li ><a href="jiameng">加盟合作</a></li>
+          <li ><a href="cont">联系我们</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url('{% static 'main/img/003.jpg' %}');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2></h2>
+                <p><br><br><br><br><br><br><br><br><br><br></p>
+                <a href="#featured-services" class="btn-get-started scrollto">了解更多</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('{% static 'main/img/zb.jpg' %}');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2></h2>
+                <p><br><br><br><br><br><br><br><br><br><br></p>
+                <a href="#featured-services" class="btn-get-started scrollto">了解更多</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('{% static 'main/img/001.jpg' %}');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2></h2>
+                <p><br><br><br><br><br><br><br><br><br><br></p>
+                <a href="#featured-services" class="btn-get-started scrollto">了解更多</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev" >
+          <span class="carousel-control-prev-icon iconfont icon-you-copy" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next"  >
+          <span class="carousel-control-next-icon iconfont icon-you" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      Featured Services Section
+    ============================-->
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box text-center">
+            <i class="iconfont icon-qiyewenhua "></i>
+            <h4 class="title"><a >企业文化</a></h4>
+            <p class="description" >&nbsp&nbsp以诚成就辉煌事业，以信求得合作共赢<br>&nbsp&nbsp以专业创新的理念求得进步<br>&nbsp&nbsp以追求完美的团队获得发展<br>&nbsp&nbsp以战略的眼光审视市场 以改革的魄力优化企业</p>
+          </div>
+
+          <div class="col-lg-4 box text-center">
+            <i class="iconfont icon-goldcup "></i>
+            <h4 class="title"><a >荣誉资质</a></h4>
+            <p class="description" >&nbsp&nbsp艺安居以专业的技术为支撑<br>&nbsp&nbsp以过硬的品质为，以不懈的追求为宗旨<br>&nbsp&nbsp获得了用户的 认可，赢得了商家的信任，取得了国家的承认<br></p>
+          </div>
+
+          <div class="col-lg-4 box text-center">
+            <i class="iconfont icon-tuiguangyoushi "></i>
+            <h4 class="title"><a >核心优势</a></h4>
+            <p class="description" >&nbsp&nbsp品牌领先&nbsp环保领先&nbsp服务领先</p>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #featured-services -->
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3><br><br>艺安居概况</h3>
+          <p>深圳艺安居涂料有限公司是集硅藻泥研发、生产、销售、施工、服务于一体的大型综合性企业，总部设在沿海发达的广东省深圳市。旗下品牌“艺安居”、”韵居”采用最先进的日本研发技术从硅藻化石原矿中提炼出硅藻泥，产品达到国际五星级环保标准.</p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img ">
+                <div class="imgg-box"><img src="{% static 'main/img/ningbo.jpg' %}" alt="" class="img-fluid imgg"></div>
+                <div class="icon"><i class="iconfont icon-mendian " style="font-size: 40px;color: #18d26e"></i></div>
+              </div>
+              <h2 class="title">宁波</h2>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img ">
+                <div class="imgg-box"><img src="{% static 'main/img/aomen.jpg' %}" alt="" class="img-fluid imgg"></div>
+                <div class="icon"><i class="iconfont icon-gaojihuiyuan"></i></div>
+              </div>
+              <h2 class="title">澳门</h2>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img ">
+                <div class="imgg-box">
+                <img src="{% static 'main/img/zhuhai.jpg' %}" alt="" class="img-fluid imgg"></div>
+                <div class="icon"><i class="iconfont icon-fuwu"></i></div>
+              </div>
+              <h2 class="title">珠海</h2>
+              <p></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <div style="height:2px;width:100%;background:#18d26e;overflow:hidden;"></div>
+    <section id="tedian">
+      <div class="container text-center">
+        <header class="section-header">
+          <h3><br><br>艺安居硅藻泥八大特点</h3>
+        </header>
+        <img src="{% static 'main/img/八大特点.png' %}" style="width: 100%;height: 100%;padding-bottom: 20px;">
+      </div>
+    </section>
+    <!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <!-- #services -->
+    <section id="portfolio"  class="section-bg" >
+      <div class="container">
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeIn">
+      <div class="container text-center">
+        <h3>加盟我们</h3>
+        <p>以产品品质为承诺，高效的管理体系， 面相全国诚邀加盟，加盟范围细化至县级。</p>
+        <a class="cta-btn" href="jiameng">马上行动</a>
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      Skills Section
+    ============================-->
+    <!-- #facts -->
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio"  class="section-bg" >
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">我们的案例</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-os">欧式风格</li>
+              <li data-filter=".filter-kt">卡通风格</li>
+              <li data-filter=".filter-xd">现代风格</li>
+              <li data-filter=".filter-jy">简约风格</li>
+              <li data-filter=".filter-zs">中式风格</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-os wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'main/img/portfolio/os1.png' %}" class="img-fluid" alt="" style="height: 100%;">
+                <a href="{% static 'main/img/portfolio/os1.png' %}" data-lightbox="portfolio" data-title="os 1" class="link-preview" title="Preview"><i class="iconfont icon-yanjing" ></i></a>
+                <a href="oushi" class="link-details" title="More Details"><i class="iconfont icon-icon--"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="oushi">欧式风格</a></h4>
+                <p>欧式</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-os wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'main/img/portfolio/os2.png' %}" class="img-fluid" alt="">
+                <a href="{% static 'main/img/portfolio/os2.png' %}" data-lightbox="portfolio" data-title="os 2" class="link-preview" title="Preview"><i class="iconfont icon-yanjing"></i></a>
+                <a href="oushi" class="link-details" title="More Details"><i class="iconfont icon-icon--"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="oushi">欧式风格</a></h4>
+                <p>欧式</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-kt wow fadeInUp" >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'main/img/portfolio/kt1.png' %}" class="img-fluid" alt="">
+                <a href="{% static 'main/img/portfolio/kt1.png' %}" class="link-preview" data-lightbox="portfolio" data-title="kt 1" title="Preview"><i class="iconfont icon-yanjing"></i></a>
+                <a href="katong" class="link-details" title="More Details"><i class="iconfont icon-icon--"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="katong">卡通风格</a></h4>
+                <p>卡通</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-kt wow fadeInUp" >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'main/img/portfolio/kt2.jpg' %}" class="img-fluid" alt="">
+                <a href="{% static 'main/img/portfolio/kt2.jpg' %}" class="link-preview" data-lightbox="portfolio" data-title="kt 2" title="Preview"><i class="iconfont icon-yanjing"></i></a>
+                <a href="katong" class="link-details" title="More Details"><i class="iconfont icon-icon--"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="katong">卡通风格</a></h4>
+                <p>卡通</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-xd wow fadeInUp" >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'main/img/portfolio/xd1.jpg' %}" class="img-fluid" alt="">
+                <a href="{% static 'main/img/portfolio/xd1.jpg' %}" class="link-preview" data-lightbox="portfolio" data-title="xd 1" title="Preview"><i class="iconfont icon-yanjing"></i></a>
+                <a href="xiandai" class="link-details" title="More Details"><i class="iconfont icon-icon--"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="xiandai">现代风格</a></h4>
+                <p>现代</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-jy wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'main/img/portfolio/jy1.png' %}" class="img-fluid" alt="">
+                <a href="{% static 'main/img/portfolio/jy1.jpg' %}" class="link-preview" data-lightbox="portfolio" data-title="jy 1" title="Preview"><i class="iconfont icon-yanjing"></i></a>
+                <a href="jianyue" class="link-details" title="More Details"><i class="iconfont icon-icon--"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="jianyue">简约风格</a></h4>
+                <p>简约</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-jy wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'main/img/portfolio/jy2.jpg' %}" class="img-fluid" alt="">
+                <a href="{% static 'main/img/portfolio/jy2.jpg' %}" class="link-preview" data-lightbox="portfolio" data-title="jy 2" title="Preview"><i class="iconfont icon-yanjing"></i></a>
+                <a href="jianyue" class="link-details" title="More Details"><i class="iconfont icon-icon--"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="jianyue">简约风格</a></h4>
+                <p>简约</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-zs wow fadeInUp" >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'main/img/portfolio/zs1.png' %}" class="img-fluid" alt="">
+                <a href="{% static 'main/img/portfolio/zs1.png' %}" class="link-preview" data-lightbox="portfolio" data-title="zs 1" title="Preview"><i class="iconfont icon-yanjing"></i></a>
+                <a href="zhongshi" class="link-details" title="More Details"><i class="iconfont icon-icon--"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="zhongshi">中式风格</a></h4>
+                <p>中式</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-zs wow fadeInUp" d>
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'main/img/portfolio/zs2.png' %}" class="img-fluid" alt="">
+                <a href="{% static 'main/img/portfolio/zs2.png' %}" class="link-preview" data-lightbox="portfolio" data-title="zs 2" title="Preview"><i class="iconfont icon-yanjing"></i></a>
+                <a href="zhongshi" class="link-details" title="More Details"><i class="iconfont icon-icon--"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="zhongshi">中式风格</a></h4>
+                <p>中式</p>
+              </div>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <div style="height:2px;width:100%;background:#18d26e;overflow:hidden;"></div>
+    <section id="facts"  class="wow fadeIn ">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>艺安居</h3>
+          <p></p>
+        </header>
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <p>跨国</p>
+            <span data-toggle="counter-up">7</span>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            
+            <p>经销商超</p>
+            <span data-toggle="counter-up">4300</span>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <p>无数的选择</p>
+            <span data-toggle="counter-up">26000</span>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">0</span>
+            <p>问题</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="skills">
+      <div class="container">
+
+        
+
+        <div class="skills-content">
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">环保<i class="val">100%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">实力<i class="val">100%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">服务<i class="val">100%</i></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+      </div>
+    </section>
+    <!-- #clients -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <!-- #team -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>联系我们</h3>
+          <p>您的信息</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>地址</h3>
+              <address>深圳市宝安区沙井街道步涌同富裕工业园区A2区C8栋</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>电话</h3>
+              <p><a href="tel:+155895548855">400-8858-137</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>邮箱</h3>
+              <p><a href="mailto:info@example.com">302930114@qq.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">您的信息已发送，谢谢！</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            {% csrf_token %}
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="您的姓名" data-rule="minlen:2" data-msg="请至少输入两个字符" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="您的电子邮箱" data-rule="email" data-msg="邮箱格式不正确或其他" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="您的标题" data-rule="minlen:1" data-msg="请至少输入一个字符" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="请写点什么..." placeholder="您的内容"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">发送信息</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+    <section id="clients" class="wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>友情链接</h3>
+        </header>
+
+        <div class="owl-carousel clients-carousel">
+          <img src="{% static 'main/img/clients/client-2.png' %}" alt="">
+          <img src="{% static 'main/img/clients/client-3.png' %}" alt="">
+          <img src="{% static 'main/img/clients/client-4.png' %}" alt="">
+          <img src="{% static 'main/img/clients/client-5.png' %}" alt="">
+          <img src="{% static 'main/img/clients/client-6.png' %}" alt="">
+          <img src="{% static 'main/img/clients/client-7.png' %}" alt="">
+          <img src="{% static 'main/img/clients/client-8.png' %}" alt="">
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+  ============================-->
+ 
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <a href="#intro"><img src="{% static 'main/img/logo1.png' %}" alt="" title="" /></a>
+            <p></p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>常用链接</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index">首页</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="about">关于我们</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="news">新闻中心</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="anliall">案例欣赏</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="jiameng">案例欣赏</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="cont">联系我们</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>联系我们</h4>
+            <p>
+             地址:深圳市宝安区沙井街道步涌同富裕工业园区A2区C8栋<br>
+              <strong>电话:</strong> 400-8858-137 <br>
+              <strong>邮箱:</strong> 302930114@qq.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="qq"><i class="iconfont icon-qq"></i></a>
+              <a href="#" class="weixin"><i class="iconfont icon-weixin"></i></a>
+              <a href="#" class="weibo"><i class="iconfont icon-weibo"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>xxxxxxxxxxxxxxxxxx</h4>
+            <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+            <!--============<form action="" method="post">
+              <input type="email" name="email"><input type="submit"  value="Subscribe">
+            </form>=========-->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>艺安居硅藻泥</strong>
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+        -->
+        Best <a href=""></a> by xuuuui
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+
+  <!-- JavaScript Libraries -->
+  <script type="text/javascript" src="{% static 'main/js/jquery.js' %}"></script>
+  <script type="text/javascript" src="{% static 'main/js/imageflow.js' %}"></script>
+  <script src="{% static 'main/lib/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'main/lib/jquery/jquery-migrate.min.js' %}"></script>
+  <script src="{% static 'main/lib/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'main/lib/easing/easing.min.js' %}"></script>
+  <script src="{% static 'main/lib/superfish/hoverIntent.js' %}"></script>
+  <script src="{% static 'main/lib/superfish/superfish.min.js' %}"></script>
+  <script src="{% static 'main/lib/wow/wow.min.js' %}"></script>
+  <script src="{% static 'main/lib/waypoints/waypoints.min.js' %}"></script>
+  <script src="{% static 'main/lib/counterup/counterup.min.js' %}"></script>
+  <script src="{% static 'main/lib/owlcarousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'main/lib/isotope/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'main/lib/lightbox/js/lightbox.min.js' %}"></script>
+  <script src="{% static 'main/lib/touchSwipe/jquery.touchSwipe.min.js' %}"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="{% static 'main/contactform/contactform.js' %}"></script>
+  <!-- Template Main Javascript File -->
+  <script src="{% static 'main/js/main.js' %}"></script>
+
+</body>
+</html>
